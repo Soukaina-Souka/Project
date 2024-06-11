@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/image/login.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.login-form {
+    padding: 30px;
+    border-radius: 16px;
+    backdrop-filter: blur(25px);
+    text-align: center;
+    color: black;
+    width: 400px;
+    box-shadow: rgba(3, 204, 191, 0.244) 10px 48px 100px 10px;
+}
+
+.login-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: rgb(40 57 101 / 90%); 
+}
+
+.input-box {
+    margin: 20px 0;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    background: rgba(40, 57, 101, 0.305);
+    border: none;
+    padding: 12px 12px 12px 45px;
+    border-radius: 99px;
+    outline: 3px solid transparent;
+    transition: 0.3s;
+    font-size: 17px;
+    color:rgb(40 57 101 / 90%); 
+    font-weight: 600;
+}
+
+.input-box input::placeholder {
+    color: #af7bff;
+    font-size: 170px;
+    font-weight: 500;
+}
+
+.input-box input:focus {
+    outline: 3px solid rgb(40 57 101 / 90%);
+}
+
+.input-box input::-ms-reveal {
+    filter: invert(100%);
+}
+
+.input-box i {
+    position: absolute;
+    left: 15px;
+    top: 75%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: rgb(40 57 101 / 90%); /* Blue color */
+}
+
+.remember-forgot-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.remember-forgot-box label {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.remember-forgot-box input {
+    accent-color: black;
+    cursor: pointer;
+}
+
+.remember-forgot-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forgot-box a:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px 0;
+    background: #28A0DD;
+    border: none;
+    border-radius: 99px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background: rgba(3, 204, 191, 0.991);
+}
+
+.register {
+    margin-top: 15px;
+    font-size: 15px;
+  
+}
+
+.register a {
+    color: rgb(40 57 101 / 90%);
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.register a:hover {
+    text-decoration: underline;
+    
+}
+
+
